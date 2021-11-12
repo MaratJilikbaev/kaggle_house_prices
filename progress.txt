@@ -1,0 +1,2 @@
+first after kaggle realization = score 0.14317
+now I want to exclude 
