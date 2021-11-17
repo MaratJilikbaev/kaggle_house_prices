@@ -1,2 +1,6 @@
 first after kaggle realization = score 0.14317
-now I want to exclude 
+now I want to exclude extreme values. And score improved! = 0.14050!
+now I want to predict not the SalePrice but log of sale price because we have skewness. Aand it also worked - score 0.13858
+now let's use kaggle researchers to use unique missing value filling to each columns. funny but score decreased - score 0.14913
+let's pepare skewness. Nothing changed. score ~0.15. If we will switch to simple linear regression it will be 0.14944
+so, the main thing, that worked last time was feature selection and making a model based only on 30 or so features. I should do it now as well
